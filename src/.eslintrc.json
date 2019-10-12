@@ -31,8 +31,9 @@
         {"SwitchCase": 1}
       ],
       "linebreak-style": [
+        0,
         "error",
-        "unix"
+        "windows"
       ],
       "quotes": [
         "error",
