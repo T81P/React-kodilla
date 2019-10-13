@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Button.scss';
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const Button = ({variant = '', ...otherProps}) => (
   <button
@@ -10,7 +10,7 @@ const Button = ({variant = '', ...otherProps}) => (
 );
 
 Button.propTypes = {
-  variant: propTypes.string,
+  variant: PropTypes.string,
 };
 
 export default Button;
